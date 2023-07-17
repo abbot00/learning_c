@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+char rev = 'z';
+while(rev >= 'a')
+{
+putchar(rev);
+rev--;
+}
+puthchar('\n');
+return(0);
+}

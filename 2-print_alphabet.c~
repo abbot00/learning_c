@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+int alfa = 'a';
+while(alfa <= 'z')
+{
+putchar(alfa);
+alfa++;
+}
+return 0;
+}
